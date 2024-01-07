@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    height:700px;
+}
+.banner{
+    height:550px;
+    width:100%;
+    background-image: url(Bannerzomato-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+}
+.logo{
+    height:170px;
+    width:300px;
+    background-image: url(ZOMATO_LOGO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translate(600px,-400px);
+}
+.nav{
+    transform:translate(1000px,-700px);
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top:15px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 45px;
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+    padding:5px;
+}
+a:hover{
+    text-decoration: underline;
+    color:#FFB534 ;
+}
+.descp1,.descp2{
+    width:100%;
+    height:100px;
+}
+.descp1
+{
+    width: fit-content;
+    transform: translate(500px,-500px);
+}
+.descp2{
+    width: fit-content;
+    transform: translate(600px,-550px);
+}
+#h1,#h2
+{
+    color:#F8FFD2;
+    font-size:40px;
+}
+.title{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    transform: translate(525px,-100px);
+    font-size: 20px;
+}
+.content{
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.mark{
+    transform: translate(0px,-50px);
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+    width:225px;
+    height:250px;
+    display: inline-block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sub1,.sub2,.sub3,.sub4,.sub5,.sub6,.sub7,.sub8,.sub9,.sub10{
+    padding-top: 220px;
+    padding-left:130px;
+
+}
+.pizza,.cake,.burger,.biryani,.chicken,.thali,.rolls,.momos,.chowmein,.paneer,.dosa
+{
+    border:hidden;
+    border-radius:100px;
+    position:absolute;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background-repeat:no-repeat;
+    background-size:cover;  
+    margin-left: 50px;
+}
+.pizza{
+    background-image: url(pizzza.jpeg);
+}
+.cake{
+    background-image: url(cake.jpg);
+}
+.burger{
+    background-image: url(burger.jpg);
+}
+.biryani{
+    background-image: url(biryani.jpg);
+}
+.chicken{
+    background-image: url(chicken.jpg);
+}
+.thali{
+    background-image: url(thali.jpeg);
+}
+.rolls{
+    background-image: url(rolls.jpg);
+}
+.momos{
+    background-image: url(momos.jpg);
+}
+.paneer{
+    background-image: url(paneer.jpg);
+}
+.dosa{
+    background-image: url(dosa.jpg);
+}
+.chowmein{
+    background-image: url(chowmein.jpg);
+}
+.title2{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    transform: translate(600px,-50px);
+    font-size: 20px;
+}
+.description{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 200px;
+    padding: 50px;
+}
+.blocks{
+    width:1200px;
+    height: 50px;
+    padding: 20px;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14,.c15,.c16,.c17,.c18,.c19,.c20,.c21,.c22,.c23,.c24{
+    background-color: aliceblue;
+    width:200px;
+    height:10px;
+    padding:20px ;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    display: inline-block;
+    margin-left: 100px;
+}
+a:hover{
+    cursor: pointer;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    background-color: #E48F45;
+    width:100%;
+    height:400px;
+    padding: 170px;
+    padding-top: 30px;
+}
+.zomatologo,.inputboxes{
+    display: inline-block;
+}
+.inputboxes{
+    margin-left: 600px;
+}
+.foottable{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.decl{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.th1{
+    width: 200px;
+}
+.td1{
+    width: 250px;
+}
